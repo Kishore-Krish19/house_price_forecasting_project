@@ -1,0 +1,11 @@
+## How to Run This Project
+
+1. Open [Google Colab](https://colab.research.google.com/)
+2. copy the code and paste it in colab.
+3. Run the cell
+4. The dataset will be automatically loaded using the code below:
+
+```python
+from sklearn.datasets import fetch_california_housing
+data = fetch_california_housing(as_frame=True)
+df = data.frame
